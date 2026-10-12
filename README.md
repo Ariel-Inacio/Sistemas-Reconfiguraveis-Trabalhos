@@ -172,4 +172,5 @@ apêndice com o código-fonte.
 - Lucca Mendes Alves Pellegrini
 
 **Disciplina:** Sistemas Reconfiguráveis — Engenharia de Computação, PUC Minas
+
 **Professor:** Francisco Manoel Pinto Garcia
