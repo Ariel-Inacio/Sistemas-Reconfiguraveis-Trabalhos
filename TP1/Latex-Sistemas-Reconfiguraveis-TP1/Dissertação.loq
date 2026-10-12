@@ -1,0 +1,16 @@
+\contentsline {quadro}{\numberline {1}{\ignorespaces Casos de teste da operação PASS\_B (op\_sel = 0000)}}{27}{quadro.A.1}%
+\contentsline {quadro}{\numberline {2}{\ignorespaces Casos de teste da operação OR (op\_sel = 0001)}}{27}{quadro.A.2}%
+\contentsline {quadro}{\numberline {3}{\ignorespaces Casos de teste da operação XOR (op\_sel = 0010)}}{28}{quadro.A.3}%
+\contentsline {quadro}{\numberline {4}{\ignorespaces Casos de teste da operação AND (op\_sel = 0011)}}{28}{quadro.A.4}%
+\contentsline {quadro}{\numberline {5}{\ignorespaces Casos de teste da operação ADDC (op\_sel = 0100)}}{28}{quadro.A.5}%
+\contentsline {quadro}{\numberline {6}{\ignorespaces Casos de teste da operação ADD (op\_sel = 0101)}}{29}{quadro.A.6}%
+\contentsline {quadro}{\numberline {7}{\ignorespaces Casos de teste da operação SUBC (op\_sel = 0110)}}{29}{quadro.A.7}%
+\contentsline {quadro}{\numberline {8}{\ignorespaces Casos de teste da operação SUB (op\_sel = 0111)}}{29}{quadro.A.8}%
+\contentsline {quadro}{\numberline {9}{\ignorespaces Casos de teste da operação NOT (op\_sel = 1000)}}{30}{quadro.A.9}%
+\contentsline {quadro}{\numberline {10}{\ignorespaces Casos de teste da operação SRA (op\_sel = 1001)}}{30}{quadro.A.10}%
+\contentsline {quadro}{\numberline {11}{\ignorespaces Casos de teste da operação SRL (op\_sel = 1010)}}{30}{quadro.A.11}%
+\contentsline {quadro}{\numberline {12}{\ignorespaces Casos de teste da operação SLL (op\_sel = 1011)}}{31}{quadro.A.12}%
+\contentsline {quadro}{\numberline {13}{\ignorespaces Casos de teste da operação RRC (op\_sel = 1100)}}{31}{quadro.A.13}%
+\contentsline {quadro}{\numberline {14}{\ignorespaces Casos de teste da operação RLC (op\_sel = 1101)}}{31}{quadro.A.14}%
+\contentsline {quadro}{\numberline {15}{\ignorespaces Casos de teste da operação RR (op\_sel = 1110)}}{32}{quadro.A.15}%
+\contentsline {quadro}{\numberline {16}{\ignorespaces Casos de teste da operação RL (op\_sel = 1111)}}{32}{quadro.A.16}%

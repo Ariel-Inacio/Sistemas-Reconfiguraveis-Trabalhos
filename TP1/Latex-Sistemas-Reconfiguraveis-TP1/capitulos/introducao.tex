@@ -1,0 +1,34 @@
+\chapter{Introdução}
+\label{cap:introducao}
+
+A Unidade Lógica e Aritmética (ALU) é o bloco do processador responsável por executar as operações sobre os dados. Neste trabalho, desenvolvido na disciplina de Sistemas Reconfiguráveis, projeta-se uma ALU de 8 bits em VHDL \cite{ashenden2008,pedroni2010}, que recebe dois operandos, um carry de entrada e um código de operação, e devolve o resultado e um conjunto de flags de status.
+
+\section{Objetivos}
+
+O objetivo geral é descrever, simular e documentar uma ALU combinacional de 8 bits com 16 funções. Os objetivos específicos são:
+
+\begin{itemize}
+  \item descrever a ALU em VHDL usando \textbf{exclusivamente código concorrente}, com entradas e saídas dos tipos \texttt{std\_logic} e \texttt{std\_logic\_vector};
+  \item garantir que o circuito seja puramente combinacional, sem \textit{latches} nem \textit{flip-flops};
+  \item gerar corretamente as flags de negativo, overflow, zero, \textit{half carry/borrow} e \textit{carry/borrow};
+  \item definir casos de teste, simular o projeto e comparar os resultados com os valores esperados.
+\end{itemize}
+
+\section{Ferramentas e restrições}
+
+O projeto foi desenvolvido no Quartus II versão 9.1sp2, conforme exigido na especificação. Todo o código obedece às restrições abaixo.
+
+\begin{itemize}
+  \item Não há comandos \texttt{process}; todas as atribuições são concorrentes (\texttt{<=}, \texttt{with-select}, \texttt{when-else}).
+  \item Os pacotes \texttt{std\_logic\_1164} e \texttt{numeric\_std} são usados; os tipos \texttt{unsigned} aparecem apenas como sinais internos do somador.
+  \item mplementar um circuito totalmente combinacional, ou seja, sem latches nem flip-flops.
+\end{itemize}
+
+\section{Organização do relatório}
+
+O Capítulo~\ref{cap:fundamentos} resume os conceitos necessários. O Capítulo~\ref{cap:especificacao} detalha a especificação da ALU. O Capítulo~\ref{cap:implementacao} apresenta a arquitetura e o código VHDL. O Capítulo~\ref{cap:simulacao} descreve os casos de teste e os resultados. Por fim, a Conclusão sintetiza o trabalho.
+
+O Capítulo~\ref{cap:fundamentos} resume os conceitos de VHDL e de projeto combinacional apresentados nas aulas
+e utilizados no projeto. O Capítulo~\ref{cap:especificacao} apresenta a especificação da ALU. O Capítulo~\ref{cap:implementacao} descreve a
+implementação em VHDL e o Capítulo~\ref{cap:simulacao} apresenta a simulação, os casos de teste e os resultados.
+Por fim, o Capítulo 6 reúne as conclusões.

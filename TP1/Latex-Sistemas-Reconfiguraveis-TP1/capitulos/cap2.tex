@@ -1,0 +1,136 @@
+\chapter{Fundamentação teórica}
+\label{cap:fundamentos}
+
+\section{Linguagens de descrição de hardware e VHDL}
+
+Uma linguagem de descrição de hardware (HDL) é usada para a descrição formal e o projeto de
+circuitos eletrônicos, sobretudo digitais. Ela permite descrever o funcionamento, a concepção
+e a organização de um circuito e testá-lo por meio de simulação (GARCIA; MAGALHÃES, 2024).
+Dentre as vantagens de uma HDL padronizada estão a independência do fornecedor, a porta-
+bilidade e a reusabilidade. Em relação ao diagrama esquemático, a descrição por HDL oferece
+projeto independente da tecnologia, facilidade de atualização, redução do tempo e do custo
+de projeto e redução do volume de documentação (GARCIA; MAGALHÃES, 2024).
+
+\secao{Estrutura de um projeto em VHDL}
+
+Um projeto VHDL possui três unidades fundamentais \cite{aula3}:
+
+\begin{listar}
+  \item \texttt{LIBRARY}: lista os pacotes e bibliotecas usados no projeto;
+  \item \texttt{ENTITY}: especifica as entradas e saídas do circuito, com o
+        nome do arquivo \texttt{.vhd} igual ao nome da entidade;
+  \item \texttt{ARCHITECTURE}: contém o código que descreve o funcionamento do
+        circuito.
+\end{listar}
+
+Os modos das portas são \texttt{IN}, \texttt{OUT}, \texttt{BUFFER} e
+\texttt{INOUT}. Uma porta \texttt{OUT} não pode ser lida dentro da
+arquitetura, ao contrário de uma porta \texttt{BUFFER} \cite{aula3}. A
+atribuição a um \texttt{SIGNAL} ou a uma porta usa o operador \texttt{<=}; os
+comentários começam com \texttt{--} e vão até o fim da linha. A linguagem não
+distingue maiúsculas de minúsculas, mas é recomendável escrever as palavras
+reservadas em maiúsculas e os nomes de sinais em minúsculas \cite{aula3}.
+
+O Código~\ref{lst:cap3ex1} reproduz o exemplo de código completo apresentado
+na aula 3.
+
+\break
+
+\begin{lstlisting}[caption={Exemplo de ENTITY e ARCHITECTURE (aula 3).},label={lst:cap3ex1}]
+ENTITY Cap3ex1 IS
+    PORT (
+        a     : IN BIT;
+        b     : IN BIT;
+        x,y,z : OUT BIT
+    );
+END Cap3ex1;
+-----------------------------
+ARCHITECTURE arch OF Cap3ex1 IS
+BEGIN
+    x <= a AND b;   -- saida x
+    y <= a OR b;    -- saida y
+    z <= a XOR b;   -- saida z
+END arch;
+\end{lstlisting}
+\vspace{-0.3cm}
+\fonte{ Codigo retirado do slide aula 6 de Garcia.}
+
+\section{Representação em complemento de dois}
+
+Em palavras de 8 bits em complemento de dois, o bit 7 é o bit de sinal \cite{harris2012}: valores de $-128$ a $127$ são representáveis, e o bit 7 igual a `1' indica número negativo. Por isso a flag de negativo (N) é simplesmente o bit 7 do resultado.
+
+\section{Soma e subtração}
+
+A soma bit a bit com propagação de carry é feita por um somador binário. A subtração pode ser reduzida a uma soma, pois
+\begin{equation}
+  a - b - c = a + \overline{b} + \overline{c},
+  \label{eq:sub}
+\end{equation}
+onde $\overline{b}$ é o complemento bit a bit de $b$ e $\overline{c}$ é o inverso do carry de entrada. Isso permite que um único somador atenda às quatro operações aritméticas: basta inverter $b$ nas subtrações e escolher adequadamente o carry de entrada do somador (Tabela~\ref{tab:cin}).
+
+\begin{table}[htb]
+  \centering
+  \caption{Carry de entrada do somador em cada operação aritmética.}
+  \label{tab:cin}
+  \begin{tabular}{llll}
+    \hline
+    Operação & Entrada B do somador & Carry de entrada do somador & Resultado \\ \hline
+    ADDC & $b$ & $c_{in}$ & $a + b + c_{in}$ \\
+    ADD  & $b$ & 0 & $a + b$ \\
+    SUBC & $\overline{b}$ & $\overline{c_{in}}$ & $a - b - c_{in}$ \\
+    SUB  & $\overline{b}$ & 1 & $a - b$ \\ \hline
+  \end{tabular}
+  \fonte{Autoria propria.}
+\end{table}
+
+\section{Flags de status}
+
+\begin{description}
+  \item[Carry/borrow (C)] Na soma, é o carry do bit 7. Na subtração, é o \textit{borrow} (empréstimo), igual ao carry do somador invertido. Nas rotações e deslocamentos guarda o bit que sai da palavra.
+  \item[Half carry/borrow (H)] Análogo ao C, mas referente à passagem do bit 3 para o bit 4.
+  \item[Zero (Z)] Vale `1' quando todos os bits do resultado são zero.
+  \item[Negative (N)] Cópia do bit 7 do resultado.
+  \item[Overflow (V)] Indica que o resultado em complemento de dois não cabe em 8 bits. Com $b_{op}$ sendo o operando efetivamente somado ($b$ ou $\overline{b}$), ocorre overflow quando os sinais de $a$ e $b_{op}$ são iguais e o sinal do resultado é diferente:
+  \begin{equation}
+    V = \overline{a_7 \oplus b_{op,7}} \cdot (a_7 \oplus r_7).
+    \label{eq:ovf}
+  \end{equation}
+\end{description}
+
+\secao{Operações aritméticas com std\_logic\_vector}\rotulo{sec:aritmetica}
+
+O tipo \texttt{std\_logic\_vector} do pacote IEEE 1164 só permite operações
+lógicas. Para realizar operações aritméticas há duas soluções \cite{aula6}:
+
+\begin{listar}
+  \item usar um dos pacotes \texttt{std\_logic\_unsigned} ou
+        \texttt{std\_logic\_signed} (nunca os dois ao mesmo tempo);
+  \item usar o pacote \texttt{numeric\_std}, que define os tipos
+        \texttt{signed} e \texttt{unsigned} e funções de conversão como
+        \texttt{to\_integer}, \texttt{to\_unsigned} e \texttt{to\_signed}. Esse
+        pacote deve ser preferido ao pacote \texttt{arith}.
+\end{listar}
+
+Para detectar o \emph{carry} (``vai um'') no bit mais significativo, a operação
+deve ser feita com 9 bits, e o bit de \emph{carry} é o bit mais significativo
+do resultado \cite{aula6}. O Código~\ref{lst:alu3} reproduz o exemplo
+\texttt{alu\_3} da aula 6, que implementa uma ALU de quatro operações com saída
+de \emph{carry}, e serve de ponto de partida para o projeto.
+
+\begin{lstlisting}[caption={Arquitetura do exemplo alu\_3 (aula 6).},label={lst:alu3}]
+ARCHITECTURE arch OF alu_3 IS
+    SIGNAL aux : STD_LOGIC_VECTOR(8 DOWNTO 0);
+BEGIN
+    WITH op SELECT
+        aux <= '0' & (a AND b)        WHEN "00",
+               '0' & NOT a            WHEN "01",
+               ('0' & a) + ('0' & b)  WHEN "10",
+               ('0' & a) - ('0' & b)  WHEN OTHERS;
+
+    r <= aux(7 DOWNTO 0);
+    c <= aux(8);
+    z <= '1' WHEN aux(7 DOWNTO 0) = "00000000" ELSE '0';
+END arch;
+\end{lstlisting}
+\vspace{-0.3cm}
+\fonte{ Codigo retirado do slide aula 6 de Garcia.}

@@ -1,0 +1,235 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{ashenden2008}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=090e00e2cd01f75d37d0302879cc75b8}{%
+           family={Ashenden},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Burlington}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{090e00e2cd01f75d37d0302879cc75b8}
+      \strng{fullhash}{090e00e2cd01f75d37d0302879cc75b8}
+      \strng{fullhashraw}{090e00e2cd01f75d37d0302879cc75b8}
+      \strng{bibnamehash}{090e00e2cd01f75d37d0302879cc75b8}
+      \strng{authorbibnamehash}{090e00e2cd01f75d37d0302879cc75b8}
+      \strng{authornamehash}{090e00e2cd01f75d37d0302879cc75b8}
+      \strng{authorfullhash}{090e00e2cd01f75d37d0302879cc75b8}
+      \strng{authorfullhashraw}{090e00e2cd01f75d37d0302879cc75b8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{The Designer's Guide to VHDL}
+      \field{year}{2008}
+    \endentry
+    \entry{aula3}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f42e6662ea66da15d11c3a1fca094341}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bcbc456538ce5a9ca06a90d8bbcab2f}{%
+           family={Magalhães},
+           familyi={M\bibinitperiod},
+           given={Antônio\bibnamedelima Hamilton},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{924055cf43652149ce11992aeb432e82}
+      \strng{fullhash}{924055cf43652149ce11992aeb432e82}
+      \strng{fullhashraw}{924055cf43652149ce11992aeb432e82}
+      \strng{bibnamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorbibnamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authornamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorfullhash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorfullhashraw}{924055cf43652149ce11992aeb432e82}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Slides da disciplina Sistemas Reconfiguráveis, Engenharia de Computação}
+      \field{note}{rev. D, 22/02/2024}
+      \field{title}{Aula 3 -- Linguagem de descrição de hardware (HDL): unidades fundamentais, classes, tipos e operadores}
+      \field{year}{2024}
+    \endentry
+    \entry{aula6}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f42e6662ea66da15d11c3a1fca094341}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bcbc456538ce5a9ca06a90d8bbcab2f}{%
+           family={Magalhães},
+           familyi={M\bibinitperiod},
+           given={Antônio\bibnamedelima Hamilton},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{924055cf43652149ce11992aeb432e82}
+      \strng{fullhash}{924055cf43652149ce11992aeb432e82}
+      \strng{fullhashraw}{924055cf43652149ce11992aeb432e82}
+      \strng{bibnamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorbibnamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authornamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorfullhash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorfullhashraw}{924055cf43652149ce11992aeb432e82}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Slides da disciplina Sistemas Reconfiguráveis, Engenharia de Computação}
+      \field{note}{rev. E, 24/09/2025}
+      \field{title}{Aula 6 -- Outros tipos. Exemplos de uso do código concorrente: unidade lógica e aritmética (ALU)}
+      \field{year}{2025}
+    \endentry
+    \entry{tp1}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f42e6662ea66da15d11c3a1fca094341}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bcbc456538ce5a9ca06a90d8bbcab2f}{%
+           family={Magalhães},
+           familyi={M\bibinitperiod},
+           given={Antônio\bibnamedelima Hamilton},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{924055cf43652149ce11992aeb432e82}
+      \strng{fullhash}{924055cf43652149ce11992aeb432e82}
+      \strng{fullhashraw}{924055cf43652149ce11992aeb432e82}
+      \strng{bibnamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorbibnamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authornamehash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorfullhash}{924055cf43652149ce11992aeb432e82}
+      \strng{authorfullhashraw}{924055cf43652149ce11992aeb432e82}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Sistemas Reconfiguráveis -- Engenharia de Computação, 2{º} semestre de 2026}
+      \field{note}{Documento em PDF}
+      \field{title}{Especificações para o primeiro projeto}
+      \field{year}{2026}
+    \endentry
+    \entry{harris2012}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=52c72575b40d70ead2d5f56d5b49ae17}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Sarah\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cdcbd39d9ab4a8a997eefe63e71c4dc}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Waltham}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \strng{fullhash}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \strng{fullhashraw}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \strng{bibnamehash}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \strng{authorbibnamehash}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \strng{authornamehash}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \strng{authorfullhash}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \strng{authorfullhashraw}{39768a1f3a7ee61c4eb96f39d49d7125}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Digital Design and Computer Architecture}
+      \field{year}{2012}
+    \endentry
+    \entry{pedroni2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=904f8bc513584a5e1fab3290d585cc3e}{%
+           family={Pedroni},
+           familyi={P\bibinitperiod},
+           given={Volnei\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{904f8bc513584a5e1fab3290d585cc3e}
+      \strng{fullhash}{904f8bc513584a5e1fab3290d585cc3e}
+      \strng{fullhashraw}{904f8bc513584a5e1fab3290d585cc3e}
+      \strng{bibnamehash}{904f8bc513584a5e1fab3290d585cc3e}
+      \strng{authorbibnamehash}{904f8bc513584a5e1fab3290d585cc3e}
+      \strng{authornamehash}{904f8bc513584a5e1fab3290d585cc3e}
+      \strng{authorfullhash}{904f8bc513584a5e1fab3290d585cc3e}
+      \strng{authorfullhashraw}{904f8bc513584a5e1fab3290d585cc3e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Circuit Design and Simulation with VHDL}
+      \field{year}{2010}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

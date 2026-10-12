@@ -1,0 +1,30 @@
+\chapter{Arquivos do projeto}
+\label{ap:arquivos}
+
+O projeto foi organizado para separar a descrição do circuito, os arquivos de
+simulação, os dados de verificação e os arquivos usados na documentação. A
+estrutura entregue deve conter os seguintes itens:
+
+\begin{description}
+  \item[\texttt{vhdl/alu.vhd}] descrição VHDL da ALU, apresentada no
+    Código~\ref{lst:alu}. O arquivo contém a entidade, a arquitetura
+    combinacional, o caminho aritmético compartilhado, a seleção das operações
+    e a geração das flags.
+  \item[\texttt{image/}] formas de onda exportadas da simulação, uma para
+    cada operação, na mesma ordem apresentada no Capítulo~\ref{cap:simulacao}:
+    \texttt{PASS\_B.png}, \texttt{OR.png}, \texttt{XOR.png},
+    \texttt{AND.png}, \texttt{ADDC.png}, \texttt{ADD.png},
+    \texttt{SUBC.png}, \texttt{SUB.png}, \texttt{NOT.png},
+    \texttt{SRA.png}, \texttt{SRL.png}, \texttt{SLL.png},
+    \texttt{RRC.png}, \texttt{RLC.png}, \texttt{RR.png} e
+    \texttt{RL.png}.
+  \item[\texttt{tabelas/resultados\_esperados.md}] consolidação dos casos de
+    teste, com entradas, resultados e flags esperadas para as 16 operações.
+  \item[\texttt{tabelas/TP1\_<operação>\_tabela.md}] tabelas individuais
+    dos resultados esperados por operação.
+  \item[\texttt{capitulos/tabela\_testes.tex}] versão LaTeX das tabelas de
+    teste, usada no Capítulo~\ref{cap:simulacao}.
+  \item[\texttt{Dissertação.tex}], \texttt{config/} e \texttt{capitulos/}
+    arquivos principais da documentação, incluindo o preâmbulo, as
+    configurações, os capítulos e este apêndice.
+\end{description}

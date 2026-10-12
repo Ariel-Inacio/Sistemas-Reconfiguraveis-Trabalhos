@@ -1,0 +1,6 @@
+\chapter{Conclusão}
+\label{cap:conclusao}
+
+Foi desenvolvida e verificada uma ALU combinacional de 8 bits com 16 operações e 5 flags, descrita em VHDL com código exclusivamente concorrente e interfaces \break \texttt{std\_logic}/\texttt{std\_logic\_vector}, como exigido. Compartilhar um único somador/subtrator entre ADDC, ADD, SUBC e SUB, com inversão do operando B e do carry de entrada, reduziu a lógica e simplificou o cálculo das flags de carry/borrow, \textit{half carry/borrow} e overflow.
+
+Os resultados da simulação concordaram com os valores esperados em todos os casos, inclusive nos seis exemplos de ADD da especificação. Como trabalho futuro, a ALU pode ser integrada a um caminho de dados com registradores de flags, ou ter o desempenho (atraso de propagação e uso de elementos lógicos) comparado entre diferentes arquiteturas de somador.

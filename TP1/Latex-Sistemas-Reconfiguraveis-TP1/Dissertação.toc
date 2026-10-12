@@ -1,0 +1,36 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\contentsline {chapter}{\chapternumberline {1}Introdução}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Ferramentas e restrições}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Organização do relatório}{10}{section.1.3}%
+\contentsline {chapter}{\chapternumberline {2}Fundamentação teórica}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Linguagens de descrição de hardware e VHDL}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Estrutura de um projeto em VHDL}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Representação em complemento de dois}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Soma e subtração}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Flags de status}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Operações aritméticas com std\_logic\_vector}{13}{section.2.6}%
+\contentsline {chapter}{\chapternumberline {3}Especificação da ALU}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Entrada e Saida}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Operações}{16}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}Implementação em VHDL}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Arquitetura}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Decisões de projeto}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Código-fonte}{20}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}Simulação e resultados}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metodologia}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Casos de teste e resultados esperados}{23}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Formas de ondas}{29}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Análise dos resultados}{32}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Operações lógicas}{32}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Operações de soma}{32}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Operações de subtração}{33}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Deslocamentos e rotações}{33}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Avaliação geral das flags}{34}{subsection.5.4.5}%
+\contentsline {chapter}{\chapternumberline {6}Conclusão}{35}{chapter.6}%
+\vspace {\cftbeforepartskip }
+\contentsline {chapter}{Referências}{36}{section*.13}%
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\contentsline {appendix}{\chapternumberline {A}Arquivos do projeto}{37}{appendix.A}%

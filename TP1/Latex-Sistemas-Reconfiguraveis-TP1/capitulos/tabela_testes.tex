@@ -1,0 +1,319 @@
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação PASS\_B.}
+\label{tab:testes-PASS-B}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+1 & FF & A5 & 0 & A5 & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+2 & FF & 00 & 1 & 00 & 0 & 0 & 1 & {\footnotesize--} & 0 \\
+3 & 12 & 7F & 0 & 7F & 0 & 0 & 0 & {\footnotesize--} & 0 \\
+4 & 55 & 80 & 1 & 80 & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+5 & 00 & FF & 0 & FF & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+6 & F0 & 01 & 1 & 01 & 0 & 0 & 0 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação OR.}
+\label{tab:testes-OR}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+7 & 00 & 00 & 0 & 00 & 0 & 0 & 1 & {\footnotesize--} & 0 \\
+8 & F0 & 0F & 0 & FF & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+9 & A5 & 00 & 0 & A5 & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+10 & 80 & 01 & 0 & 81 & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+11 & 55 & AA & 0 & FF & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+12 & 0F & 30 & 1 & 3F & 0 & 0 & 0 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação XOR.}
+\label{tab:testes-XOR}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+13 & FF & FF & 0 & 00 & 0 & 0 & 1 & {\footnotesize--} & 0 \\
+14 & AA & 55 & 0 & FF & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+15 & F0 & 0F & 0 & FF & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+16 & B5 & 4C & 0 & F9 & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+17 & 00 & 00 & 0 & 00 & 0 & 0 & 1 & {\footnotesize--} & 0 \\
+18 & 80 & 80 & 1 & 00 & 0 & 0 & 1 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação AND.}
+\label{tab:testes-AND}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+19 & 0F & F0 & 0 & 00 & 0 & 0 & 1 & {\footnotesize--} & 0 \\
+20 & FF & FF & 0 & FF & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+21 & F0 & 3C & 0 & 30 & 0 & 0 & 0 & {\footnotesize--} & 0 \\
+22 & B5 & 4C & 0 & 04 & 0 & 0 & 0 & {\footnotesize--} & 0 \\
+23 & 80 & FF & 0 & 80 & 0 & 0 & 0 & {\footnotesize--} & 1 \\
+24 & 55 & AA & 1 & 00 & 0 & 0 & 1 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação ADDC.}
+\label{tab:testes-ADDC}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+25 & 0F & 01 & 0 & 10 & 0 & 1 & 0 & 0 & 0 \\
+26 & 0F & 01 & 1 & 11 & 0 & 1 & 0 & 0 & 0 \\
+27 & FF & 00 & 1 & 00 & 1 & 1 & 1 & 0 & 0 \\
+28 & 7F & 00 & 1 & 80 & 0 & 1 & 0 & 1 & 1 \\
+29 & FF & FF & 1 & FF & 1 & 1 & 0 & 0 & 1 \\
+30 & 80 & 80 & 1 & 01 & 1 & 0 & 0 & 1 & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação ADD.}
+\label{tab:testes-ADD}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+31 & 37 & 10 & 0 & 47 & 0 & 0 & 0 & 0 & 0 \\
+32 & 37 & 19 & 0 & 50 & 0 & 1 & 0 & 0 & 0 \\
+33 & 77 & 70 & 0 & E7 & 0 & 0 & 0 & 1 & 1 \\
+34 & 77 & 89 & 0 & 00 & 1 & 1 & 1 & 0 & 0 \\
+35 & 80 & 80 & 0 & 00 & 1 & 0 & 1 & 1 & 0 \\
+36 & C7 & D0 & 0 & 97 & 1 & 0 & 0 & 0 & 1 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação SUBC.}
+\label{tab:testes-SUBC}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+37 & 10 & 0F & 1 & 00 & 0 & 1 & 1 & 0 & 0 \\
+38 & 10 & 0F & 0 & 01 & 0 & 1 & 0 & 0 & 0 \\
+39 & 00 & 00 & 1 & FF & 1 & 1 & 0 & 0 & 1 \\
+40 & 80 & 00 & 1 & 7F & 0 & 1 & 0 & 1 & 0 \\
+41 & 50 & B0 & 0 & A0 & 1 & 0 & 0 & 1 & 1 \\
+42 & 05 & 05 & 0 & 00 & 0 & 0 & 1 & 0 & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação SUB.}
+\label{tab:testes-SUB}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+43 & 10 & 01 & 0 & 0F & 0 & 1 & 0 & 0 & 0 \\
+44 & 05 & 05 & 0 & 00 & 0 & 0 & 1 & 0 & 0 \\
+45 & 00 & 01 & 0 & FF & 1 & 1 & 0 & 0 & 1 \\
+46 & 80 & 01 & 0 & 7F & 0 & 1 & 0 & 1 & 0 \\
+47 & 50 & B0 & 0 & A0 & 1 & 0 & 0 & 1 & 1 \\
+48 & 10 & 01 & 1 & 0F & 0 & 1 & 0 & 0 & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação NOT.}
+\label{tab:testes-NOT}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+49 & 0F & 00 & 0 & F0 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+50 & FF & 00 & 0 & 00 & 0 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+51 & 00 & 00 & 0 & FF & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+52 & AA & 55 & 1 & 55 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+53 & 80 & 00 & 0 & 7F & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+54 & 7F & 00 & 0 & 80 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação SRA.}
+\label{tab:testes-SRA}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+55 & 81 & 00 & 0 & C0 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+56 & 01 & 00 & 0 & 00 & 1 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+57 & 7E & 00 & 0 & 3F & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+58 & 80 & 00 & 0 & C0 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+59 & FF & 00 & 0 & FF & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+60 & 00 & 00 & 1 & 00 & 0 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação SRL.}
+\label{tab:testes-SRL}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+61 & 81 & 00 & 0 & 40 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+62 & 01 & 00 & 0 & 00 & 1 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+63 & FE & 00 & 0 & 7F & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+64 & FF & 00 & 0 & 7F & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+65 & 80 & 00 & 0 & 40 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+66 & 00 & 00 & 1 & 00 & 0 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação SLL.}
+\label{tab:testes-SLL}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+67 & 81 & 00 & 0 & 02 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+68 & 40 & 00 & 0 & 80 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+69 & 01 & 00 & 0 & 02 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+70 & FF & 00 & 0 & FE & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+71 & 80 & 00 & 0 & 00 & 1 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+72 & 00 & 00 & 1 & 00 & 0 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação RRC.}
+\label{tab:testes-RRC}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+73 & 01 & 00 & 1 & 80 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+74 & 01 & 00 & 0 & 00 & 1 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+75 & 00 & 00 & 1 & 80 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+76 & FF & 00 & 0 & 7F & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+77 & 80 & 00 & 1 & C0 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+78 & A5 & 00 & 0 & 52 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação RLC.}
+\label{tab:testes-RLC}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+79 & 80 & 00 & 1 & 01 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+80 & 80 & 00 & 0 & 00 & 1 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+81 & 00 & 00 & 1 & 01 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+82 & FF & 00 & 0 & FE & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+83 & 01 & 00 & 1 & 03 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+84 & 5A & 00 & 0 & B4 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação RR.}
+\label{tab:testes-RR}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+85 & 01 & 00 & 0 & 80 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+86 & 02 & 00 & 0 & 01 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+87 & 80 & 00 & 1 & 40 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+88 & FF & 00 & 0 & FF & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+89 & A5 & 00 & 0 & D2 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+90 & 00 & 00 & 1 & 00 & 0 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}
+
+\begin{longtable}{c c c c c c c c c c}
+\caption{Casos de teste da operação RL.}
+\label{tab:testes-RL}\\
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endfirsthead
+\hline
+Caso & \texttt{a\_in} & \texttt{b\_in} & \texttt{c\_in} & \texttt{r\_out} & C & H & Z & V & N \\ \hline
+\endhead
+91 & 80 & 00 & 0 & 01 & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+92 & 40 & 00 & 0 & 80 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+93 & 01 & 00 & 1 & 02 & 0 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+94 & FF & 00 & 0 & FF & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 1 \\
+95 & A5 & 00 & 0 & 4B & 1 & {\footnotesize--} & 0 & {\footnotesize--} & 0 \\
+96 & 00 & 00 & 1 & 00 & 0 & {\footnotesize--} & 1 & {\footnotesize--} & 0 \\
+\hline
+\end{longtable}
+\vspace{-0.5cm}
+\fonte{Autoria propria.}

@@ -1,0 +1,15 @@
+[0] Config.pm:329> INFO - This is Biber 2.22
+[0] Config.pm:332> INFO - Logfile is 'Dissertação.blg'
+[32] biber:342> INFO - === sex out  9, 2026, 02:44:27
+[41] Biber.pm:421> INFO - Reading 'Dissertação.bcf'
+[71] Biber.pm:1002> INFO - Found 6 citekeys in bib section 0
+[79] Biber.pm:4487> INFO - Processing section 0
+[83] Biber.pm:4680> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[84] bibtex.pm:1713> INFO - LaTeX decoding ...
+[87] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[129] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[129] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[129] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[129] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[133] bbl.pm:676> INFO - Writing 'Dissertação.bbl' with encoding 'UTF-8'
+[135] bbl.pm:779> INFO - Output to Dissertação.bbl
