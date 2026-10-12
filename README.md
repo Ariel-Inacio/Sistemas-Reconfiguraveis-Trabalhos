@@ -72,6 +72,14 @@ e gera **5 flags de status**.
 - Um único **somador/subtrator de 8 bits** é compartilhado por ADDC, ADD, SUBC e SUB,
   usando subtração por complemento de dois (inversão do operando B e ajuste do carry).
 
+### Estrutura em portas lógicas
+
+A figura abaixo mostra o **mapa da ALU em portas lógicas**, evidenciando como o circuito
+combinacional foi construído — o somador/subtrator compartilhado, a multiplexação das
+operações e a lógica de geração das flags:
+
+![Mapa da ALU em portas lógicas](TP1/Prints/Portas_Logicas.png)
+
 ### Ferramentas
 
 - **Quartus II 9.1sp2** (Altera) — síntese e simulação funcional (arquivos `.vwf`).
@@ -93,6 +101,20 @@ entidade de topo renomeada para `alu`. Os principais arquivos são:
 - `db/` e `incremental_db/` — bancos de dados **gerados** pela compilação (podem ser
   recriados pelo Quartus).
 
+### Prints das simulações
+
+A pasta [`TP1/Prints/`](TP1/Prints) reúne os **prints dos resultados das formas de onda**
+(*waveforms*) obtidos na simulação funcional. Para **cada uma das 16 operações** da ULA
+são capturados os **6 testes** definidos nas tabelas de casos de teste, resultando nos
+**96 casos** totais cobertos pelo trabalho. Esses prints servem como evidência visual de
+que a saída (`r_out` e `flags_out`) corresponde ao esperado para cada combinação de
+entradas (`a_in`, `b_in`, `c_in` e `op_sel`). Há um arquivo por operação, nomeado com o
+mnemônico correspondente (ex.: `ADD.png`, `PASS_B.png`, `RRC.png`).
+
+Além das waveforms, a pasta contém a imagem **`Portas_Logicas.png`**, que apresenta o
+**mapa da ALU em portas lógicas** (mostrado em
+[Estrutura em portas lógicas](#estrutura-em-portas-lógicas)).
+
 ---
 
 ## Estrutura do repositório
@@ -112,6 +134,9 @@ entidade de topo renomeada para `alu`. Os principais arquivos são:
     │   ├── alu.sof, alu.pof                # Arquivos de programação do FPGA
     │   ├── db/                             # Banco de dados de compilação (gerado)
     │   └── incremental_db/                 # Compilação incremental (gerado)
+    ├── Prints/                             # Prints das waveforms (6 testes por operação)
+    │   ├── <OPERACAO>.png                  # Uma imagem por operação (ex.: ADD.png, RRC.png)
+    │   └── Portas_Logicas.png              # Mapa da ALU em portas lógicas
     ├── Relatorio.pdf                       # Relatório final compilado
     └── Latex-Sistemas-Reconfiguraveis-TP1/ # Fontes do relatório em LaTeX
         ├── Relatorio.tex                   # Documento principal
@@ -136,6 +161,8 @@ apêndice com o código-fonte.
 2. Compile o projeto e execute a **simulação funcional** no editor de formas de onda
    (`.vwf`), aplicando os vetores de teste descritos nas
    [tabelas de casos de teste](TP1/Latex-Sistemas-Reconfiguraveis-TP1/tabelas/resultados_esperados.md).
+   Os resultados obtidos podem ser conferidos com os prints em
+   [`TP1/Prints/`](TP1/Prints), que registram os 6 testes de cada operação.
 3. Para regenerar o relatório, compile o arquivo `TP1/Latex-Sistemas-Reconfiguraveis-TP1/Relatorio.tex`
    com uma distribuição LaTeX (pdfLaTeX + Biber).
 
