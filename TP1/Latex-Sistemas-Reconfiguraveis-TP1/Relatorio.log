@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.10.8)  9 OCT 2026 20:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.10.8)  12 OCT 2026 04:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/ariel/Documentos/Latex-Sistemas-Reconfiguraveis-TP1/Relatorio.tex
-(/home/ariel/Documentos/Latex-Sistemas-Reconfiguraveis-TP1/Relatorio.tex
+**/home/ariel/Projetos/Gits-Puc/6-semestre/Sistemas-Reconfiguraveis-Trabalhos/TP1/Latex-Sistemas-Reconfiguraveis-TP1/Relatorio
+(/home/ariel/Projetos/Gits-Puc/6-semestre/Sistemas-Reconfiguraveis-Trabalhos/TP1/Latex-Sistemas-Reconfiguraveis-TP1/Relatorio.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
@@ -1623,10 +1623,10 @@ Cap\'{\i }tulo 1.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [9
+)) (./capitulos/cap2.tex [9
 
 
-]) (./capitulos/cap2.tex
+]
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 1.
  [10]
@@ -1677,7 +1677,7 @@ Overfull \hbox (23.67046pt too wide) in alignment at lines 74--92
 
 [16]) (./capitulos/cap4.tex [17]
 Cap\'{\i }tulo 4.
-<image/Portas-Logicas-Verticais.jpeg, id=337, 1263.72125pt x 2569.6pt>
+<image/Portas-Logicas-Verticais.jpeg, id=333, 1263.72125pt x 2569.6pt>
 File: image/Portas-Logicas-Verticais.jpeg Graphic file (type jpg)
 <use image/Portas-Logicas-Verticais.jpeg>
 Package pdftex.def Info: image/Portas-Logicas-Verticais.jpeg  used on input line 46.
@@ -1697,82 +1697,82 @@ ignored: Infinite glue shrinkage found in box being split [24]
 ignored: Infinite glue shrinkage found in box being split [25]
 ignored: Infinite glue shrinkage found in box being split [26]
 ignored: Infinite glue shrinkage found in box being split [27]) [28]
-<image/PASS_B.png, id=515, 1154.81438pt x 126.4725pt>
+<image/PASS_B.png, id=511, 1154.81438pt x 126.4725pt>
 File: image/PASS_B.png Graphic file (type png)
 <use image/PASS_B.png>
 Package pdftex.def Info: image/PASS_B.png  used on input line 24.
 (pdftex.def)             Requested size: 455.24411pt x 49.85669pt.
-<image/OR.png, id=517, 1154.81438pt x 125.71968pt>
+<image/OR.png, id=513, 1154.81438pt x 125.71968pt>
 File: image/OR.png Graphic file (type png)
 <use image/OR.png>
 Package pdftex.def Info: image/OR.png  used on input line 32.
 (pdftex.def)             Requested size: 455.24411pt x 49.55992pt.
-<image/XOR.png, id=518, 1154.81438pt x 124.21407pt>
+<image/XOR.png, id=514, 1154.81438pt x 124.21407pt>
 File: image/XOR.png Graphic file (type png)
 <use image/XOR.png>
 Package pdftex.def Info: image/XOR.png  used on input line 40.
 (pdftex.def)             Requested size: 455.24411pt x 48.9664pt.
-<image/AND.png, id=519, 1154.06157pt x 123.46124pt>
+<image/AND.png, id=515, 1154.06157pt x 123.46124pt>
 File: image/AND.png Graphic file (type png)
 <use image/AND.png>
 Package pdftex.def Info: image/AND.png  used on input line 48.
 (pdftex.def)             Requested size: 455.24411pt x 48.70164pt.
-<image/ADDC.png, id=520, 1153.30875pt x 122.70844pt>
+<image/ADDC.png, id=516, 1153.30875pt x 122.70844pt>
 File: image/ADDC.png Graphic file (type png)
 <use image/ADDC.png>
 Package pdftex.def Info: image/ADDC.png  used on input line 56.
 (pdftex.def)             Requested size: 455.24411pt x 48.43652pt.
-<image/ADD.png, id=521, 1155.56718pt x 124.21407pt>
+<image/ADD.png, id=517, 1155.56718pt x 124.21407pt>
 File: image/ADD.png Graphic file (type png)
 <use image/ADD.png>
 Package pdftex.def Info: image/ADD.png  used on input line 64.
 (pdftex.def)             Requested size: 455.24411pt x 48.93417pt.
-<image/SUBC.png, id=522, 1154.81438pt x 122.70844pt>
+<image/SUBC.png, id=518, 1154.81438pt x 122.70844pt>
 File: image/SUBC.png Graphic file (type png)
 <use image/SUBC.png>
 Package pdftex.def Info: image/SUBC.png  used on input line 72.
 (pdftex.def)             Requested size: 455.24411pt x 48.37286pt.
-<image/SUB.png, id=523, 1156.32pt x 125.71968pt>
+<image/SUB.png, id=519, 1156.32pt x 125.71968pt>
 File: image/SUB.png Graphic file (type png)
 <use image/SUB.png>
 Package pdftex.def Info: image/SUB.png  used on input line 80.
 (pdftex.def)             Requested size: 455.24411pt x 49.4947pt.
-<image/NOT.png, id=524, 1155.56718pt x 128.73094pt>
+<image/NOT.png, id=520, 1155.56718pt x 128.73094pt>
 File: image/NOT.png Graphic file (type png)
 <use image/NOT.png>
 Package pdftex.def Info: image/NOT.png  used on input line 88.
 (pdftex.def)             Requested size: 455.24411pt x 50.7136pt.
-<image/SRA.png, id=525, 1154.81438pt x 124.96687pt>
+<image/SRA.png, id=521, 1154.81438pt x 124.96687pt>
 File: image/SRA.png Graphic file (type png)
 <use image/SRA.png>
 Package pdftex.def Info: image/SRA.png  used on input line 96.
 (pdftex.def)             Requested size: 455.24411pt x 49.26317pt.
-<image/SRL.png, id=526, 1155.56718pt x 124.21407pt>
+<image/SRL.png, id=522, 1155.56718pt x 124.21407pt>
 File: image/SRL.png Graphic file (type png)
 <use image/SRL.png>
 Package pdftex.def Info: image/SRL.png  used on input line 104.
 (pdftex.def)             Requested size: 455.24411pt x 48.93417pt.
-<image/SLL.png, id=527, 1154.81438pt x 124.21407pt>
+<image/SLL.png, id=523, 1154.81438pt x 124.21407pt>
 File: image/SLL.png Graphic file (type png)
 <use image/SLL.png>
 Package pdftex.def Info: image/SLL.png  used on input line 112.
 (pdftex.def)             Requested size: 455.24411pt x 48.9664pt.
-<image/RRC.png, id=528, 1154.81438pt x 122.70844pt>
+<image/RRC.png, id=524, 1154.81438pt x 122.70844pt>
 File: image/RRC.png Graphic file (type png)
 <use image/RRC.png>
 Package pdftex.def Info: image/RRC.png  used on input line 120.
 (pdftex.def)             Requested size: 455.24411pt x 48.37286pt.
-<image/RLC.png, id=529, 1154.06157pt x 123.46124pt>
+<image/RLC.png, id=525, 1154.06157pt x 123.46124pt>
 File: image/RLC.png Graphic file (type png)
 <use image/RLC.png>
 Package pdftex.def Info: image/RLC.png  used on input line 128.
 (pdftex.def)             Requested size: 455.24411pt x 48.70164pt.
-<image/RR.png, id=530, 1156.32pt x 125.71968pt>
+<image/RR.png, id=526, 1156.32pt x 125.71968pt>
 File: image/RR.png Graphic file (type png)
 <use image/RR.png>
 Package pdftex.def Info: image/RR.png  used on input line 136.
 (pdftex.def)             Requested size: 455.24411pt x 49.4947pt.
-<image/RL.png, id=531, 1155.56718pt x 124.96687pt>
+<image/RL.png, id=527, 1155.56718pt x 124.96687pt>
 File: image/RL.png Graphic file (type png)
 <use image/RL.png>
 Package pdftex.def Info: image/RL.png  used on input line 144.
@@ -1825,18 +1825,18 @@ Package logreq Info: Writing requests to 'Relatorio.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42164 strings out of 469416
- 762085 string characters out of 5467573
- 2138139 words of memory out of 5000000
+ 42161 strings out of 469416
+ 762229 string characters out of 5467573
+ 2138138 words of memory out of 5000000
  69517 multiletter control sequences out of 15000+600000
- 716948 words of font info for 326 fonts, out of 8000000 for 9000
+ 716818 words of font info for 324 fonts, out of 8000000 for 9000
  42 hyphenation exceptions out of 8191
- 99i,13n,107p,1260b,4312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,107p,1313b,4312s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relatorio.pdf (38 pages, 799182 bytes).
+Output written on Relatorio.pdf (38 pages, 798893 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 723 compressed objects within 8 object streams
+ 840 PDF objects out of 1000 (max. 8388607)
+ 719 compressed objects within 8 object streams
  286 named destinations out of 1000 (max. 500000)
  99218 words of extra memory for PDF output out of 106986 (max. 10000000)
 
